@@ -259,3 +259,35 @@ else:
     
     
 print ("\n --- Batas --- \n")
+
+
+
+
+print ("\n Percabangan Nilai Rapor Sederhana \n")
+
+
+nilai = 95
+
+if nilai >= 95:
+    print (f"A, nilai = {nilai}")
+    
+elif nilai >= 90:
+    print (f"B, nilai = {nilai}")
+    
+elif nilai >= 80:
+    print (f"C, nilai = {nilai}")
+    
+elif nilai >= 70:
+    print (f"D, nilai = {nilai}")
+    
+elif nilai >= 60:
+    print (f"E, nilai = {nilai}")
+    
+elif nilai >= 50:
+    print (f"F, nilai = {nilai}")
+    
+else:
+    print (f"Sama saja, nilai = {nilai}")
+    
+    
+print ("\n --- Batas --- \n")
